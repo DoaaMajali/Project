@@ -1,0 +1,32 @@
+POST
+Finalproject/login_page
+http://127.0.0.1:8000/api/finalproject/login
+Make things easier for your teammates with a complete request description.
+Bodyraw (json)
+json
+{
+  "username": "doaa",
+  "password": "1234"
+}
+Example
+Finalproject/login_page
+Request
+cURL
+curl --location --request POST 'http://127.0.0.1:8000/api/finalproject/login' \
+--data-raw '{
+    "username": "doaa",
+    "password":"1234"
+ 
+}'
+Response
+json
+{
+  "token": "774b97d8bed184dff8e6e0d60ca529bb6f90fc31"
+}
+JUMP TO
+Introduction
+POST
+Finalproject/login_page
+POST
+Finalproject/login_page
+Online

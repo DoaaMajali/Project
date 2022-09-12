@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block 'body' %}
+
+This is the home page.
+    <form  action=" /post/create" method=" POST">
+
+        {{ create_post_form.as_p }}
+        <input type="submit">
+    </form>
+   
+
+   
+
+   
+{%  endblock  %}   
